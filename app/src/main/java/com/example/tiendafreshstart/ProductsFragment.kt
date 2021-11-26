@@ -27,11 +27,6 @@ class ProductsFragment : Fragment() {
         _binding = FragmentProductsBinding.inflate(inflater, container, false)
         val view = binding.root
 
-
-        binding.imgLogo5.setOnClickListener{
-            it.findNavController().navigate(R.id.action_productsFragment_to_loginFragment)
-        }
-
         return view
     }
 
