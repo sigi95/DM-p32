@@ -4,108 +4,130 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D5A6BD"
     tools:context=".EditProfileFragment">
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="80dp"
-        android:layout_height="89dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:src="@drawable/logo"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="16dp"
-        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/foto_perfil"
         android:layout_width="126dp"
         android:layout_height="105dp"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="36dp"
-        tools:src="@tools:sample/avatars"
-        tools:ignore="MissingConstraints" />
-
-    <EditText
-        android:id="@+id/edit_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:text="Nombre"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="154dp" />
-
-    <EditText
-        android:id="@+id/edit_password"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:text="Contraseña"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="213dp" />
-
-    <EditText
-        android:id="@+id/edit_address"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:text="Direccion"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="272dp" />
+        tools:src="@tools:sample/avatars" />
 
     <EditText
         android:id="@+id/edit_email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="209dp"
+        android:layout_height="40dp"
+        android:background="#8AF1ECEC"
         android:ems="10"
         android:inputType="textPersonName"
-        android:minHeight="48dp"
+        android:minHeight="40dp"
         android:text="Correo"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="330dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.476"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="209dp"
+        android:layout_height="40dp"
+        android:background="#8AF1ECEC"
+        android:backgroundTint="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="40dp"
+        android:text="Nombre"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/edit_address"
+        android:layout_width="209dp"
+        android:layout_height="40dp"
+        android:background="#8AF1ECEC"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="40dp"
+        android:text="Direccion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="209dp"
+        android:layout_height="40dp"
+        android:background="#8AF1ECEC"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="40dp"
+        android:text="Contraseña"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.658"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/edit_phone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="209dp"
+        android:layout_height="40dp"
+        android:background="#8AF1ECEC"
         android:ems="10"
         android:inputType="textPersonName"
-        android:minHeight="48dp"
+        android:minHeight="40dp"
         android:text="Telefono"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="389dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.566"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Actualizar"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="447dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.772"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/cambiar_foto"
-        android:layout_width="80dp"
-        android:layout_height="31dp"
-        android:text="Editar"
+        android:layout_width="86dp"
+        android:layout_height="34dp"
+        android:text="Cambiar"
         android:textSize="10sp"
-        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
-        tools:layout_editor_absoluteX="180dp"
-        tools:layout_editor_absoluteY="110dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.192"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
 
     <ImageButton
         android:id="@+id/imageButton5"
@@ -115,10 +137,15 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:background="#D5A6BD"
         android:src="@drawable/perfil"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="299dp"
-        tools:layout_editor_absoluteY="517dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/imageButton6"
@@ -128,10 +155,13 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:background="#D5A6BD"
         android:src="@drawable/instagram"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.996"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="517dp" />
+        tools:layout_editor_absoluteX="117dp" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -141,10 +171,15 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:background="#D5A6BD"
         android:src="@drawable/carrito"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="209dp"
-        tools:layout_editor_absoluteY="517dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -154,9 +189,14 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:background="#D5A6BD"
         android:src="@drawable/home"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="517dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.998"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
