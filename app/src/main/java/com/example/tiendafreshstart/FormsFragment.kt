@@ -30,6 +30,7 @@ class FormsFragment : Fragment() {
 
         binding.btnregistrar.setOnClickListener{
             it.findNavController().navigate(R.id.action_formsFragment_to_registerFragment)
+
         }
 
         binding.btnsesion.setOnClickListener{

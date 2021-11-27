@@ -30,6 +30,21 @@ class HomeFragment : Fragment() {
         binding.imgLogo.setOnClickListener{
             it.findNavController().navigate(R.id.action_homeFragment_to_formsFragment)
         }
+        binding.btncasa.setOnClickListener{
+            it.findNavController().navigate(R.id.action_homeFragment_to_formsFragment)
+        }
+        binding.btnprofile.setOnClickListener{
+            it.findNavController().navigate(R.id.action_homeFragment_to_editProfileFragment)
+        }
+
+        //binding.instagram.setOnClickListener{
+            //it.findNavController().navigate(R.id.action_homeFragment_to_formsFragment)
+        //}
+        //binding.carrito.setOnClickListener{
+            //it.findNavController().navigate(R.id.action_homeFragment_to_formsFragment)
+        //}
+
+
 
         return view
     }

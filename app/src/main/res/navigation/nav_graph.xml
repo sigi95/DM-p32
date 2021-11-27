@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_homeFragment_to_formsFragment"
             app:destination="@id/formsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
     </fragment>
     <fragment
         android:id="@+id/formsFragment"
@@ -64,5 +67,25 @@
         <action
             android:id="@+id/action_productsFragment_to_loginFragment"
             app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_productsFragment_to_product_detailsFragment"
+            app:destination="@id/product_detailsFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/product_detailsFragment"
+        android:name="com.example.tiendafreshstart.product_detailsFragment"
+        android:label="fragment_product_details"
+        tools:layout="@layout/fragment_product_details" >
+        <action
+            android:id="@+id/action_product_detailsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_product_detailsFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.tiendafreshstart.EditProfileFragment"
+        android:label="fragment_edit_profile"
+        tools:layout="@layout/fragment_edit_profile" />
 </navigation>

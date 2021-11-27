@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D5A6BD"
     tools:context=".EditProfileFragment">
 
     <ImageView
@@ -15,27 +16,29 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:src="@drawable/logo"
-        tools:layout_editor_absoluteX="21dp"
-        tools:layout_editor_absoluteY="16dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <ImageView
         android:id="@+id/foto_perfil"
         android:layout_width="126dp"
         android:layout_height="105dp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="141dp"
         tools:layout_editor_absoluteY="36dp"
-        tools:src="@tools:sample/avatars"
-        tools:ignore="MissingConstraints" />
+        tools:src="@tools:sample/avatars" />
 
     <EditText
         android:id="@+id/edit_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#CBF5F4F6"
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="Nombre"
+        android:textColor="#FF803e5b"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="101dp"
         tools:layout_editor_absoluteY="154dp" />
@@ -44,10 +47,12 @@
         android:id="@+id/edit_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#CBF5F4F6"
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="Contraseña"
+        android:textColor="#FF803e5b"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="101dp"
         tools:layout_editor_absoluteY="213dp" />
@@ -56,10 +61,12 @@
         android:id="@+id/edit_address"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#CBF5F4F6"
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="Direccion"
+        android:textColor="#FF803e5b"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="101dp"
         tools:layout_editor_absoluteY="272dp" />
@@ -68,10 +75,12 @@
         android:id="@+id/edit_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#CBF5F4F6"
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="Correo"
+        android:textColor="#FF803e5b"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="101dp"
         tools:layout_editor_absoluteY="330dp" />
@@ -80,22 +89,24 @@
         android:id="@+id/edit_phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#CBF5F4F6"
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="Telefono"
+        android:textColor="#FF803e5b"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="389dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="389dp" />
 
     <Button
         android:id="@+id/save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Actualizar"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="447dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="447dp" />
 
     <Button
         android:id="@+id/cambiar_foto"
@@ -108,55 +119,59 @@
         tools:layout_editor_absoluteY="110dp" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="86dp"
-        android:layout_height="85dp"
+        android:id="@+id/imageButton2"
+        android:layout_width="76dp"
+        android:layout_height="75dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:src="@drawable/perfil"
+        android:background="#D5A6BD"
+        android:src="@drawable/home"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="299dp"
-        tools:layout_editor_absoluteY="517dp" />
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="495dp" />
 
     <ImageButton
         android:id="@+id/imageButton6"
-        android:layout_width="86dp"
-        android:layout_height="85dp"
+        android:layout_width="76dp"
+        android:layout_height="75dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:background="#D5A6BD"
         android:src="@drawable/instagram"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="119dp"
-        tools:layout_editor_absoluteY="517dp" />
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="495dp" />
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="86dp"
-        android:layout_height="85dp"
+        android:layout_width="76dp"
+        android:layout_height="75dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:background="#D5A6BD"
         android:src="@drawable/carrito"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="209dp"
-        tools:layout_editor_absoluteY="517dp" />
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="495dp" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="86dp"
-        android:layout_height="85dp"
+        android:id="@+id/imageButton5"
+        android:layout_width="76dp"
+        android:layout_height="75dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:src="@drawable/home"
+        android:background="#D5A6BD"
+        android:src="@drawable/perfil"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="517dp" />
+        tools:layout_editor_absoluteX="296dp"
+        tools:layout_editor_absoluteY="495dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

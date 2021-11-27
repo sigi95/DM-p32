@@ -26,7 +26,15 @@ class ProductsFragment : Fragment() {
     ): View? {
         _binding = FragmentProductsBinding.inflate(inflater, container, false)
         val view = binding.root
-
+        binding.btnDetalle.setOnClickListener{
+            it.findNavController().navigate(R.id.action_productsFragment_to_product_detailsFragment)
+        }
+        binding.btnDetalle2.setOnClickListener{
+            it.findNavController().navigate(R.id.action_productsFragment_to_product_detailsFragment)
+        }
+        binding.btnDetalle3.setOnClickListener{
+            it.findNavController().navigate(R.id.action_productsFragment_to_product_detailsFragment)
+        }
         return view
     }
 
