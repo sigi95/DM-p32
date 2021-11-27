@@ -8,62 +8,6 @@
     tools:context=".EditProfileFragment">
 
     <ImageView
-<<<<<<< HEAD
-        android:id="@+id/imageView2"
-        android:layout_width="80dp"
-        android:layout_height="89dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:src="@drawable/logo"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <ImageView
-        android:id="@+id/foto_perfil"
-        android:layout_width="126dp"
-        android:layout_height="105dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="36dp"
-        tools:src="@tools:sample/avatars" />
-
-    <EditText
-        android:id="@+id/edit_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#CBF5F4F6"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:text="Nombre"
-        android:textColor="#FF803e5b"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="154dp" />
-
-    <EditText
-        android:id="@+id/edit_password"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#CBF5F4F6"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:text="Contraseña"
-        android:textColor="#FF803e5b"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="213dp" />
-
-    <EditText
-        android:id="@+id/edit_address"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#CBF5F4F6"
-=======
         android:id="@+id/foto_perfil"
         android:layout_width="126dp"
         android:layout_height="105dp"
@@ -114,37 +58,10 @@
         android:layout_width="209dp"
         android:layout_height="40dp"
         android:background="#8AF1ECEC"
->>>>>>> fa47090d61320b736d75e31fb12be4c0b79d7b93
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="40dp"
         android:text="Direccion"
-<<<<<<< HEAD
-        android:textColor="#FF803e5b"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="272dp" />
-
-    <EditText
-        android:id="@+id/edit_email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#CBF5F4F6"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:text="Correo"
-        android:textColor="#FF803e5b"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="330dp" />
-
-    <EditText
-        android:id="@+id/edit_phone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#CBF5F4F6"
-=======
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -173,17 +90,10 @@
         android:layout_width="209dp"
         android:layout_height="40dp"
         android:background="#8AF1ECEC"
->>>>>>> fa47090d61320b736d75e31fb12be4c0b79d7b93
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="40dp"
         android:text="Telefono"
-<<<<<<< HEAD
-        android:textColor="#FF803e5b"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="101dp"
-        tools:layout_editor_absoluteY="389dp" />
-=======
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -191,18 +101,12 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.566"
         tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
->>>>>>> fa47090d61320b736d75e31fb12be4c0b79d7b93
 
     <Button
         android:id="@+id/save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Actualizar"
-<<<<<<< HEAD
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="447dp" />
-=======
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
@@ -210,7 +114,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.772"
         tools:ignore="MissingConstraints" />
->>>>>>> fa47090d61320b736d75e31fb12be4c0b79d7b93
 
     <Button
         android:id="@+id/cambiar_foto"
@@ -227,20 +130,14 @@
         tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="76dp"
-        android:layout_height="75dp"
+        android:id="@+id/imageButton5"
+        android:layout_width="86dp"
+        android:layout_height="85dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:background="#D5A6BD"
-<<<<<<< HEAD
-        android:src="@drawable/home"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="495dp" />
-=======
         android:src="@drawable/perfil"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -249,12 +146,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.998"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
->>>>>>> fa47090d61320b736d75e31fb12be4c0b79d7b93
 
     <ImageButton
         android:id="@+id/imageButton6"
-        android:layout_width="76dp"
-        android:layout_height="75dp"
+        android:layout_width="86dp"
+        android:layout_height="85dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
@@ -265,28 +161,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.996"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-<<<<<<< HEAD
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="495dp" />
-=======
         tools:layout_editor_absoluteX="117dp" />
->>>>>>> fa47090d61320b736d75e31fb12be4c0b79d7b93
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="76dp"
-        android:layout_height="75dp"
+        android:layout_width="86dp"
+        android:layout_height="85dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:background="#D5A6BD"
         android:src="@drawable/carrito"
-<<<<<<< HEAD
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="495dp" />
-=======
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.661"
@@ -294,23 +180,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.998"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
->>>>>>> fa47090d61320b736d75e31fb12be4c0b79d7b93
 
     <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="76dp"
-        android:layout_height="75dp"
+        android:id="@+id/imageButton2"
+        android:layout_width="86dp"
+        android:layout_height="85dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:background="#D5A6BD"
-<<<<<<< HEAD
-        android:src="@drawable/perfil"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
-        tools:layout_editor_absoluteX="296dp"
-        tools:layout_editor_absoluteY="495dp" />
-=======
         android:src="@drawable/home"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -319,6 +198,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.998"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
->>>>>>> fa47090d61320b736d75e31fb12be4c0b79d7b93
 
 </androidx.constraintlayout.widget.ConstraintLayout>
