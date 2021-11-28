@@ -37,9 +37,9 @@ class HomeFragment : Fragment() {
             it.findNavController().navigate(R.id.action_homeFragment_to_editProfileFragment)
         }
 
-        //binding.instagram.setOnClickListener{
-            //it.findNavController().navigate(R.id.action_homeFragment_to_formsFragment)
-        //}
+        binding.btncarrito.setOnClickListener{
+            it.findNavController().navigate(R.id.action_homeFragment_to_carritoFragment)
+        }
         //binding.carrito.setOnClickListener{
             //it.findNavController().navigate(R.id.action_homeFragment_to_formsFragment)
         //}

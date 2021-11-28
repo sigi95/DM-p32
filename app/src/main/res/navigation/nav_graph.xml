@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_homeFragment_to_editProfileFragment"
             app:destination="@id/editProfileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_carritoFragment"
+            app:destination="@id/carritoFragment" />
     </fragment>
     <fragment
         android:id="@+id/formsFragment"
@@ -88,4 +91,9 @@
         android:name="com.example.tiendafreshstart.EditProfileFragment"
         android:label="fragment_edit_profile"
         tools:layout="@layout/fragment_edit_profile" />
+    <fragment
+        android:id="@+id/carritoFragment"
+        android:name="com.example.tiendafreshstart.carritoFragment"
+        android:label="fragment_carrito"
+        tools:layout="@layout/fragment_carrito" />
 </navigation>
