@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_homeFragment_to_carritoFragment"
             app:destination="@id/carritoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_mapsActivity"
+            app:destination="@id/mapsActivity" />
     </fragment>
     <fragment
         android:id="@+id/formsFragment"
@@ -90,10 +93,19 @@
         android:id="@+id/editProfileFragment"
         android:name="com.example.tiendafreshstart.EditProfileFragment"
         android:label="fragment_edit_profile"
-        tools:layout="@layout/fragment_edit_profile" />
+        tools:layout="@layout/fragment_edit_profile" >
+        <action
+            android:id="@+id/action_editProfileFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/carritoFragment"
         android:name="com.example.tiendafreshstart.carritoFragment"
         android:label="fragment_carrito"
         tools:layout="@layout/fragment_carrito" />
+    <activity
+        android:id="@+id/mapsActivity"
+        android:name="com.example.tiendafreshstart.MapsActivity"
+        android:label="activity_maps"
+        tools:layout="@layout/activity_maps" />
 </navigation>

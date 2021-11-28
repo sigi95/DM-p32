@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.findNavController
 import com.example.tiendafreshstart.databinding.FragmentProductDetailsBinding
 
-class product_detailsFragment : Fragment() {
+class product_detailsFragment: Fragment() {
         private var _binding: FragmentProductDetailsBinding? = null
         private val binding get() = _binding!!
         var numero:Int=1

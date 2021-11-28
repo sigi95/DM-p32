@@ -40,8 +40,8 @@ class HomeFragment : Fragment() {
         binding.btncarrito.setOnClickListener{
             it.findNavController().navigate(R.id.action_homeFragment_to_carritoFragment)
         }
-        //binding.carrito.setOnClickListener{
-            //it.findNavController().navigate(R.id.action_homeFragment_to_formsFragment)
+        //binding.btnmap.setOnClickListener{
+            //it.findNavController().navigate(R.id.action_homeFragment_to_mapsActivity)
         //}
 
 
