@@ -2,150 +2,144 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
+    android:id="@+id/relativeLayout3"
+    android:layout_width="wrap_content"
     android:layout_height="match_parent"
     android:background="#D5A6BD"
     tools:context=".HomeFragment">
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:text="Telefono: 32000976554"
-        android:textAlignment="center"
-        android:textColor="#FF803e5b"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:text="Encuentra nuestar tienda en el mapa:"
-        android:textAlignment="center"
-        android:textColor="#FF803e5b"
-        android:textSize="18sp"
-        android:textStyle="bold"
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="426dp"
+        android:layout_height="442dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <ImageButton
-        android:id="@+id/btnprofile"
-        android:layout_width="76dp"
-        android:layout_height="75dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="2dp"
-        android:layout_marginBottom="70dp"
-        android:background="#D5A6BD"
-        android:src="@drawable/perfil"
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgLogo"
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:gravity="center"
+                android:text="Quienes Somos"
+                android:textAlignment="center"
+                android:textColor="#FF803e5b"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:autoText="false"
+                android:editable="false"
+                android:gravity="center"
+                android:isScrollContainer="false"
+                android:justificationMode="inter_word"
+                android:text="Lorem Ipsum es simplemente texto de relleno de la industria de la impresión y la composición tipográfica. Lorem Ipsum es simplemente texto de relleno de la industria de la impresión y la composición tipográfica. Lorem Ipsum es simplemente texto de relleno de la industria de la impresión y la composición tipográfica. Lorem Ipsum es simplemente texto de relleno de la industria de la impresión y la composición tipográfica. Lorem Ipsum ha sido el texto de relleno estándar de la industria desde el año 1500, cuando un impresor desconocido tomó una galera de tipos y la mezcló para hacer  Lorem Ipsum es simplemente texto de relleno de la industria de la impresión y la composición tipográfica. Lorem Ipsum ha sido el texto de relleno estándar de la industria desde el año 1500, cuando un impresor desconocido tomó una galera de tipos y la mezcló para hacer un libro de muestras tipográficas. "
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="#FF803e5b"
+                android:textSize="20sp"
+                app:autoSizeTextType="uniform"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="Telefono: 32000976554"
+                android:textAlignment="center"
+                android:textColor="#FF803e5b"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:text="Encuentra nuestar tienda en el mapa:"
+                android:textAlignment="center"
+                android:textColor="#FF803e5b"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/mapView"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="131dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="344dp"
+        android:layout_height="77dp"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.254"
-        app:layout_constraintStart_toEndOf="@+id/btncarrito"
-        app:layout_constraintTop_toTopOf="@+id/btncarrito"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
-
-    <ImageButton
-        android:id="@+id/btncasa"
-        android:layout_width="76dp"
-        android:layout_height="75dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="25dp"
-        android:layout_marginBottom="70dp"
-        android:background="#D5A6BD"
-        android:src="@drawable/home"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2">
 
-    <ImageButton
-        android:id="@+id/btninstagram"
-        android:layout_width="76dp"
-        android:layout_height="75dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
-        android:background="#D5A6BD"
-        android:src="@drawable/instagram"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btncasa"
-        app:layout_constraintTop_toTopOf="@+id/btncasa"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+        <ImageButton
+            android:id="@+id/btncasa"
+            android:layout_width="76dp"
+            android:layout_height="75dp"
+            android:background="#D5A6BD"
+            android:src="@drawable/home"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
-    <ImageButton
-        android:id="@+id/btncarrito"
-        android:layout_width="76dp"
-        android:layout_height="75dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
-        android:background="#D5A6BD"
-        android:src="@drawable/carrito"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btninstagram"
-        app:layout_constraintTop_toTopOf="@+id/btninstagram"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+        <ImageButton
+            android:id="@+id/btnprofile"
+            android:layout_width="76dp"
+            android:layout_height="75dp"
+            android:background="#D5A6BD"
+            android:src="@drawable/perfil"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
-    <ImageView
-        android:id="@+id/imgLogo"
-        android:layout_width="126dp"
-        android:layout_height="114dp"
-        android:src="@drawable/logo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.155" />
+        <ImageButton
+            android:id="@+id/btninstagram"
+            android:layout_width="76dp"
+            android:layout_height="75dp"
+            android:background="#D5A6BD"
+            android:src="@drawable/instagram"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="339dp"
-        android:layout_height="176dp"
-        android:justificationMode="inter_word"
-        android:text="Lorem Ipsum es simplemente texto de relleno de la industria de la impresión y la composición tipográfica. Lorem Ipsum ha sido el texto de relleno estándar de la industria desde el año 1500, cuando un impresor desconocido tomó una galera de tipos y la mezcló para hacer un libro de muestras tipográficas. "
-        android:textAlignment="viewStart"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="#FF803e5b"
-        android:textSize="18sp"
-        app:autoSizeTextType="uniform"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.513"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgLogo"
-        app:layout_constraintVertical_bias="0.232" />
+        <ImageButton
+            android:id="@+id/btncarrito"
+            android:layout_width="76dp"
+            android:layout_height="75dp"
+            android:background="#D5A6BD"
+            android:src="@drawable/carrito"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Quienes Somos"
-        android:textAlignment="center"
-        android:textColor="#FF803e5b"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgLogo"
-        app:layout_constraintVertical_bias="0.304" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
