@@ -6,7 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#D5A6BD"
-    android:foregroundTint="#880E4F"
     android:foregroundTintMode="add"
     tools:context=".ComentariosFragment">
 
@@ -94,16 +93,16 @@
 
     <TextView
         android:id="@+id/textView23"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="156dp"
+        android:layout_height="39dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:background="#D5A6BD"
+        android:background="#D5B15DBF"
         android:text="Calificaciones"
         android:textAlignment="center"
-        android:textColor="#880E4F"
+        android:textColor="#F4EFF2"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -116,13 +115,12 @@
         android:layout_width="53dp"
         android:layout_height="55dp"
         android:layout_marginTop="8dp"
-        android:foregroundTint="#880E4F"
         android:src="?attr/homeAsUpIndicator"
-        android:tint="#880E4F"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.208"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:tint="#880E4F" />
 
     <TextView
         android:id="@+id/textView27"
@@ -223,8 +221,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.073" />
 
-<<<<<<< HEAD
 </androidx.constraintlayout.widget.ConstraintLayout>
-=======
-</androidx.constraintlayout.widget.ConstraintLayout>
->>>>>>> a5f57c7a06cdb1b60ab583f697d70ddd3bf4e985
+

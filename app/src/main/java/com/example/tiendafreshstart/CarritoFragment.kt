@@ -12,6 +12,7 @@ import com.example.tiendafreshstart.databinding.FragmentCarritoBinding
 class CarritoFragment : Fragment() {
     private var _binding: FragmentCarritoBinding? = null
     private val binding get() = _binding!!
+    var numero:Int=1
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -27,6 +28,17 @@ class CarritoFragment : Fragment() {
         }
         binding.btnprofilecarrito.setOnClickListener {
             it.findNavController().navigate(R.id.action_carritoFragment2_to_editProfileFragment)
+        }
+        binding.btnsumar2.setOnClickListener{
+            numero=numero+1
+            binding.txtcantidad2.setText(""+numero)
+        }
+
+        binding.btnrestar2.setOnClickListener{
+            if(numero>1){
+                numero=numero-1
+                binding.txtcantidad2.setText(""+numero)
+            }
         }
         return view
     }
