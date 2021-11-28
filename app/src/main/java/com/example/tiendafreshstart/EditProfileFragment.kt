@@ -27,6 +27,12 @@ class EditProfileFragment : Fragment() {
         binding.btnhomeedit.setOnClickListener{
             it.findNavController().navigate(R.id.action_editProfileFragment_to_homeFragment)
         }
+        binding.btncarritoedit.setOnClickListener{
+            it.findNavController().navigate(R.id.action_editProfileFragment_to_carritoFragment2)
+        }
+        binding.btnsaveeditprofile.setOnClickListener{
+            it.findNavController().navigate(R.id.action_editProfileFragment_to_homeFragment)
+        }
 
     return view
 }

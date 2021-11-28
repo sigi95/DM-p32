@@ -35,6 +35,15 @@ class ProductsFragment : Fragment() {
         binding.btnDetalle3.setOnClickListener{
             it.findNavController().navigate(R.id.action_productsFragment_to_product_detailsFragment)
         }
+        binding.btnhomeproduct.setOnClickListener{
+            it.findNavController().navigate(R.id.action_productsFragment_to_homeFragment)
+        }
+        binding.btncarritoproduct.setOnClickListener{
+            it.findNavController().navigate(R.id.action_productsFragment_to_carritoFragment2)
+        }
+        binding.btnprofileproduct.setOnClickListener{
+            it.findNavController().navigate(R.id.action_productsFragment_to_editProfileFragment)
+        }
         return view
     }
 

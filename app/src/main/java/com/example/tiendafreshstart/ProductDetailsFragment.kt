@@ -22,11 +22,20 @@ class product_detailsFragment: Fragment() {
     ): View? {
         _binding = FragmentProductDetailsBinding.inflate(inflater, container, false)
         val view = binding.root
+        binding.btnagregar.setOnClickListener{
+            it.findNavController().navigate(R.id.action_product_detailsFragment_to_carritoFragment23)
+        }
         binding.btncasadetails.setOnClickListener{
             it.findNavController().navigate(R.id.action_product_detailsFragment_to_homeFragment)
         }
+        binding.btncarritodetails.setOnClickListener{
+            it.findNavController().navigate(R.id.action_product_detailsFragment_to_carritoFragment23)
+        }
         binding.btnprofiledetails.setOnClickListener{
             it.findNavController().navigate(R.id.action_product_detailsFragment_to_editProfileFragment)
+        }
+        binding.btnopiniones.setOnClickListener{
+            it.findNavController().navigate(R.id.action_product_detailsFragment_to_comentariosFragment)
         }
 
         binding.btnsumar.setOnClickListener{

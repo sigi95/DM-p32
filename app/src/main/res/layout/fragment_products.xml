@@ -12,7 +12,7 @@
 
 
     <ImageButton
-        android:id="@+id/imageButton26"
+        android:id="@+id/btnhomeproduct"
         android:layout_width="76dp"
         android:layout_height="75dp"
         android:layout_alignParentStart="true"
@@ -38,12 +38,12 @@
         android:layout_marginStart="16dp"
         android:background="#D5A6BD"
         android:src="@drawable/instagram"
-        app:layout_constraintStart_toEndOf="@+id/imageButton26"
-        app:layout_constraintTop_toTopOf="@+id/imageButton26"
+        app:layout_constraintStart_toEndOf="@+id/btnhomeproduct"
+        app:layout_constraintTop_toTopOf="@+id/btnhomeproduct"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/imageButton28"
+        android:id="@+id/btncarritoproduct"
         android:layout_width="76dp"
         android:layout_height="75dp"
         android:layout_alignParentStart="true"
@@ -58,7 +58,7 @@
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/imageButton29"
+        android:id="@+id/btnprofileproduct"
         android:layout_width="76dp"
         android:layout_height="75dp"
         android:layout_alignParentStart="true"
@@ -68,8 +68,8 @@
         android:layout_marginStart="16dp"
         android:background="#D5A6BD"
         android:src="@drawable/perfil"
-        app:layout_constraintStart_toEndOf="@+id/imageButton28"
-        app:layout_constraintTop_toTopOf="@+id/imageButton28"
+        app:layout_constraintStart_toEndOf="@+id/btncarritoproduct"
+        app:layout_constraintTop_toTopOf="@+id/btncarritoproduct"
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
     <RelativeLayout

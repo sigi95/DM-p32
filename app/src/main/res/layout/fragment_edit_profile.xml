@@ -114,7 +114,7 @@
         tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/save"
+        android:id="@+id/btnsaveeditprofile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Actualizar"
@@ -145,7 +145,7 @@
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/btncarritoedit"
         android:layout_width="86dp"
         android:layout_height="85dp"
         android:layout_alignParentStart="true"
@@ -191,7 +191,7 @@
         android:background="#D5A6BD"
         android:src="@drawable/instagram"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:layout_constraintEnd_toStartOf="@+id/btncarritoedit"
         app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toEndOf="@+id/btnhomeedit"
         app:layout_constraintTop_toTopOf="parent"

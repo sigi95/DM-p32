@@ -49,7 +49,7 @@ class HomeFragment : Fragment() {
         }
 
         binding.btncarrito.setOnClickListener{
-            it.findNavController().navigate(R.id.action_homeFragment_to_carritoFragment)
+            it.findNavController().navigate(R.id.action_homeFragment_to_carritoFragment2)
         }
         binding.btnmap.setOnClickListener{
             it.findNavController().navigate(R.id.action_homeFragment_to_mapsActivity)
