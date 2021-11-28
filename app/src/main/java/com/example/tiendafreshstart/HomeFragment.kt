@@ -5,14 +5,25 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.google.android.gms.maps.CameraUpdateFactory
+import com.google.android.gms.maps.GoogleMap
+import com.google.android.gms.maps.OnMapReadyCallback
+import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.MarkerOptions
+import com.example.tiendafreshstart.databinding.ActivityMapsBinding
+import com.google.android.gms.maps.model.BitmapDescriptor
+import com.google.android.gms.maps.model.BitmapDescriptorFactory
 import androidx.navigation.findNavController
 import com.example.tiendafreshstart.databinding.FragmentHomeBinding
+import com.example.tiendafreshstart.MapsActivity
 
 
 class HomeFragment : Fragment() {
 
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,9 +51,9 @@ class HomeFragment : Fragment() {
         binding.btncarrito.setOnClickListener{
             it.findNavController().navigate(R.id.action_homeFragment_to_carritoFragment)
         }
-        //binding.btnmap.setOnClickListener{
-            //it.findNavController().navigate(R.id.action_homeFragment_to_mapsActivity)
-        //}
+        binding.btnmap.setOnClickListener{
+            it.findNavController().navigate(R.id.action_homeFragment_to_mapsActivity)
+        }
 
 
 
@@ -55,3 +66,4 @@ class HomeFragment : Fragment() {
     }
 
 }
+

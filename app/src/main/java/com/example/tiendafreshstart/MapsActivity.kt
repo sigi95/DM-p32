@@ -10,8 +10,10 @@ import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.example.tiendafreshstart.databinding.ActivityMapsBinding
+import com.google.android.gms.maps.model.BitmapDescriptor
+import com.google.android.gms.maps.model.BitmapDescriptorFactory
 
-class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
+open class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
     private lateinit var binding: ActivityMapsBinding
@@ -28,21 +30,14 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mapFragment.getMapAsync(this)
     }
 
-    /**
-     * Manipulates the map once available.
-     * This callback is triggered when the map is ready to be used.
-     * This is where we can add markers or lines, add listeners or move the camera. In this case,
-     * we just add a marker near Sydney, Australia.
-     * If Google Play services is not installed on the device, the user will be prompted to install
-     * it inside the SupportMapFragment. This method will only be triggered once the user has
-     * installed Google Play services and returned to the app.
-     */
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
 
         // Add a marker in Sydney and move the camera
-        val sydney = LatLng(-34.0, 151.0)
-        mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+        val bogota = LatLng(4.6533326, -74.083652)
+        mMap.addMarker(MarkerOptions().position(bogota).title("A Fresh Tart"). snippet("Las mejores tartas y postres de la Ciudad").icon(
+            BitmapDescriptorFactory.fromResource(R.drawable.icon3)))
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(bogota, 7.0F))
+
     }
 }

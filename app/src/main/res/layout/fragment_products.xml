@@ -91,10 +91,10 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="24dp"
-            android:layout_marginTop="49dp"
-            android:layout_marginEnd="312dp"
-            android:layout_marginBottom="593dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="307dp"
+            android:layout_marginBottom="599dp"
             android:src="@drawable/logo"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -114,52 +114,6 @@
             android:src="@drawable/producto3"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="202dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="186dp"
-            android:layout_marginTop="319dp"
-            android:layout_marginEnd="28dp"
-            android:layout_marginBottom="386dp"
-            android:text="Nombre del Producto"
-            android:textColor="#FF803e5b" />
-
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="201dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="186dp"
-            android:layout_marginTop="344dp"
-            android:layout_marginEnd="29dp"
-            android:layout_marginBottom="361dp"
-            android:text="Precio del Producto"
-            android:textColor="#FF803e5b" />
-
-        <Button
-            android:id="@+id/btnDetalle2"
-            android:layout_width="119dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="187dp"
-            android:layout_marginTop="368dp"
-            android:layout_marginEnd="110dp"
-            android:layout_marginBottom="323dp"
-            android:background="#D500F9"
-            android:text="Detalle"
-            tools:ignore="TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
         <ImageView
             android:id="@+id/imageView7"
@@ -183,26 +137,11 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="188dp"
+            android:layout_marginStart="197dp"
             android:layout_marginTop="210dp"
-            android:layout_marginEnd="28dp"
+            android:layout_marginEnd="19dp"
             android:layout_marginBottom="495dp"
             android:text="Nombre del Producto"
-            android:textColor="#FF803e5b" />
-
-        <TextView
-            android:id="@+id/textView19"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="188dp"
-            android:layout_marginTop="235dp"
-            android:layout_marginEnd="28dp"
-            android:layout_marginBottom="470dp"
-            android:text="Precio del Producto"
             android:textColor="#FF803e5b" />
 
         <Button
@@ -213,25 +152,59 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="188dp"
+            android:layout_marginStart="197dp"
             android:layout_marginTop="260dp"
-            android:layout_marginEnd="112dp"
+            android:layout_marginEnd="103dp"
             android:layout_marginBottom="432dp"
             android:background="#D500F9"
             android:text="Detalle"
             tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
 
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="133dp"
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="202dp"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginTop="397dp"
-            android:layout_marginEnd="235dp"
-            android:layout_marginBottom="191dp"
-            android:src="@drawable/postre" />
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="319dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="386dp"
+            android:text="Nombre del Producto"
+            android:textColor="#FF803e5b" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="344dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="361dp"
+            android:text="Precio del Producto"
+            android:textColor="#FF803e5b" />
+
+        <Button
+            android:id="@+id/btnDetalle2"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="368dp"
+            android:layout_marginEnd="101dp"
+            android:layout_marginBottom="323dp"
+            android:background="#D500F9"
+            android:text="Detalle"
+            tools:ignore="TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
         <TextView
             android:id="@+id/textView9"
@@ -241,9 +214,9 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="185dp"
+            android:layout_marginStart="194dp"
             android:layout_marginTop="421dp"
-            android:layout_marginEnd="33dp"
+            android:layout_marginEnd="24dp"
             android:layout_marginBottom="284dp"
             android:text="Nombre del Producto"
             android:textColor="#FF803e5b" />
@@ -256,9 +229,9 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="185dp"
+            android:layout_marginStart="194dp"
             android:layout_marginTop="448dp"
-            android:layout_marginEnd="32dp"
+            android:layout_marginEnd="23dp"
             android:layout_marginBottom="257dp"
             android:text="Precio del Producto"
             android:textColor="#FF803e5b" />
@@ -271,13 +244,40 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="185dp"
+            android:layout_marginStart="194dp"
             android:layout_marginTop="474dp"
-            android:layout_marginEnd="112dp"
+            android:layout_marginEnd="103dp"
             android:layout_marginBottom="217dp"
             android:background="#D500F9"
             android:text="Detalle"
             tools:ignore="TouchTargetSizeCheck,TextContrastCheck,TextContrastCheck" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="197dp"
+            android:layout_marginTop="235dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="470dp"
+            android:text="Precio del Producto"
+            android:textColor="#FF803e5b" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="397dp"
+            android:layout_marginEnd="235dp"
+            android:layout_marginBottom="191dp"
+            android:src="@drawable/postre" />
 
     </RelativeLayout>
 

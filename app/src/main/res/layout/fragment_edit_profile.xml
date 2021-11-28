@@ -212,7 +212,7 @@
 
     <Button
         android:id="@+id/cambiar_foto"
-        android:layout_width="82dp"
+        android:layout_width="84dp"
         android:layout_height="31dp"
         android:text="Cambiar"
         android:textSize="10sp"
