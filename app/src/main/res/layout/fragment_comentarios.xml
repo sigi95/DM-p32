@@ -21,6 +21,18 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
+    <Button
+        android:id="@+id/btnagregaropinion2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calificaciones"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219"
+        tools:ignore="MissingConstraints" />
+
     <ImageButton
         android:id="@+id/btncasacomments"
         android:layout_width="76dp"
@@ -92,37 +104,6 @@
         tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
     <TextView
-        android:id="@+id/textView23"
-        android:layout_width="156dp"
-        android:layout_height="39dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:background="#D5B15DBF"
-        android:text="Calificaciones"
-        android:textAlignment="center"
-        android:textColor="#F4EFF2"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.519"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnback" />
-
-    <ImageView
-        android:id="@+id/btnback"
-        android:layout_width="53dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="8dp"
-        android:src="?attr/homeAsUpIndicator"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.208"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:tint="#880E4F" />
-
-    <TextView
         android:id="@+id/textView27"
         android:layout_width="171dp"
         android:layout_height="36dp"
@@ -146,7 +127,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="244dp"
         android:background="#D5A6BD"
         android:text="Torta Tres Leches"
         android:textAlignment="center"
@@ -156,7 +137,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.284"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView24"
@@ -219,7 +200,7 @@
         app:layout_constraintHorizontal_bias="0.048"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.073" />
+        app:layout_constraintVertical_bias="0.03" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

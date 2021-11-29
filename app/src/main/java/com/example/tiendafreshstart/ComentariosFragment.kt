@@ -23,9 +23,7 @@ class ComentariosFragment : Fragment() {
     ): View? {
         _binding = FragmentComentariosBinding.inflate(inflater, container, false)
         val view = binding.root
-        binding.btnback.setOnClickListener {
-            it.findNavController().navigate(R.id.action_comentariosFragment_to_product_detailsFragment)
-        }
+
         binding.btncasacomments.setOnClickListener {
             it.findNavController().navigate(R.id.action_comentariosFragment_to_homeFragment)
         }

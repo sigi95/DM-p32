@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#D5A6BD"
-    tools:context=".carritoFragment">
+    tools:context=".CarritoFragment">
 
     <TextView
         android:id="@+id/textView12"
