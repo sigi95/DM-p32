@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "225928505070",
+    "project_id": "a-fresh-tart",
+    "storage_bucket": "a-fresh-tart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225928505070:android:8b20ec3f51c54915cc75ff",
+        "android_client_info": {
+          "package_name": "com.example.tiendafreshstart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225928505070-07c4jooi8o6p52nfv6aq680ccbq294bh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tiendafreshstart",
+            "certificate_hash": "8cbf331e25ea566925025d1a60bd765c73f90415"
+          }
+        },
+        {
+          "client_id": "225928505070-pecm8g2alb6u2aouemn4cbiq3s5a4qso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDLS_YG7v9qJNNt6zsF-2E7WR8ih9XdhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225928505070-pecm8g2alb6u2aouemn4cbiq3s5a4qso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

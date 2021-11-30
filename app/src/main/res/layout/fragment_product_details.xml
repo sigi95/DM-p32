@@ -63,6 +63,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginTop="32dp"
         android:background="#D500F9"
+        android:fontFamily="casual"
         android:text="Agregar al Carrito"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,76 +71,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
         tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
-
-    <ImageButton
-        android:id="@+id/imageButton16"
-        android:layout_width="76dp"
-        android:layout_height="75dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="16dp"
-        android:background="#D5A6BD"
-        android:src="@drawable/instagram"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btncasadetails"
-        app:layout_constraintTop_toTopOf="@+id/btncasadetails"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
-
-    <ImageButton
-        android:id="@+id/btncasadetails"
-        android:layout_width="76dp"
-        android:layout_height="75dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="25dp"
-        android:layout_marginBottom="40dp"
-        android:background="#D5A6BD"
-        android:src="@drawable/home"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
-
-    <ImageButton
-        android:id="@+id/btnprofiledetails"
-        android:layout_width="76dp"
-        android:layout_height="75dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="16dp"
-        android:background="#D5A6BD"
-        android:src="@drawable/perfil"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btncarritodetails"
-        app:layout_constraintTop_toTopOf="@+id/btncarritodetails"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
-
-    <ImageButton
-        android:id="@+id/btncarritodetails"
-        android:layout_width="76dp"
-        android:layout_height="75dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="16dp"
-        android:background="#D5A6BD"
-        android:src="@drawable/carrito"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton16"
-        app:layout_constraintTop_toTopOf="@+id/imageButton16"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView8"
@@ -151,6 +82,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginStart="64dp"
         android:background="#D5A6BD"
+        android:fontFamily="casual"
         android:text="Cantidad"
         android:textAlignment="center"
         android:textColor="#880E4F"
@@ -170,10 +102,12 @@
         android:layout_alignParentBottom="true"
         android:layout_marginTop="16dp"
         android:background="#D5A6BD"
+        android:fontFamily="casual"
         android:text="Torta Tres Leches"
         android:textAlignment="center"
         android:textColor="#880E4F"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -199,10 +133,10 @@
         android:layout_width="80dp"
         android:layout_height="89dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="28dp"
         android:src="@drawable/logo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintHorizontal_bias="0.015"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -211,8 +145,10 @@
         android:layout_width="315dp"
         android:layout_height="104dp"
         android:layout_marginTop="16dp"
-        android:background="#C3F1CCEB"
+        android:background="#C3F6F3F6"
+        android:fontFamily="casual"
         android:justificationMode="inter_word"
+        android:padding="20dp"
         android:text="Lorem Ipsum es simplemente texto de relleno de la industria de la impresión y la composición tipográfica. Lorem Ipsum ha sido el texto de relleno estándar de la industria desde el año 1500, cuando un impresor desconocido tomó una galera de tipos y la mezcló para hacer "
         android:textAlignment="viewStart"
         android:textColor="#FF803e5b"
@@ -220,7 +156,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_goneMarginLeft="20dp" />
 
     <Button
         android:id="@+id/btnopiniones"
@@ -233,6 +170,7 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="8dp"
         android:background="#D500F9"
+        android:fontFamily="casual"
         android:text="Opiniones"
         android:textSize="10sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -248,7 +186,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginTop="16dp"
-        android:background="#C3F1CCEB"
+        android:background="#C3F6F3F6"
+        android:fontFamily="casual"
         android:text="$ 20"
         android:textColor="#FF803e5b"
         android:textSize="20sp"
@@ -257,6 +196,77 @@
         app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="@+id/btnopiniones"
         app:layout_constraintTop_toBottomOf="@+id/btnopiniones" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="414dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="16dp"
+        android:background="#C3F6F3F6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageButton
+            android:id="@+id/btncasadetails"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="58dp"
+            android:background="#C3F6F3F6"
+            android:baselineAligned="false"
+            android:foregroundGravity="center"
+            android:src="@drawable/home2"
+            android:textAlignment="viewEnd"
+            android:tint="#FF803e5b"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton16"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginBottom="16dp"
+            android:background="#C3F6F3F6"
+            android:src="@drawable/instagram__1_"
+            android:tint="#FF803e5b"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btncasadetails"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/btncarritodetails"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginBottom="16dp"
+            android:background="#C3F6F3F6"
+            android:src="@drawable/shopping_cart"
+            android:tint="#FF803e5b"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton16"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/btnprofiledetails"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="16dp"
+            android:background="#C3F6F3F6"
+            android:src="@drawable/user__1_"
+            android:tint="#FF803e5b"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btncarritodetails"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
