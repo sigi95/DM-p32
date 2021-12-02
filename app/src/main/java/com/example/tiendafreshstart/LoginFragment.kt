@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import com.example.tiendafreshstart.databinding.FragmentLoginBinding
-import com.example.tiendafreshstart.databinding.FragmentRegisterBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
@@ -23,6 +22,7 @@ class LoginFragment : Fragment() {
         super.onCreate(savedInstanceState)
         auth = Firebase.auth
     }
+
     public override fun onStart() {
         super.onStart()
         // Check if user is signed in (non-null) and update UI accordingly.
