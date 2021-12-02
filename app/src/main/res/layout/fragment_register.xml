@@ -8,102 +8,6 @@
     android:background="#D5A6BD"
     tools:context=".RegisterFragment">
 
-    <EditText
-        android:id="@+id/edit_name4"
-        android:layout_width="209dp"
-        android:layout_height="40dp"
-        android:background="#8AF1ECEC"
-        android:backgroundTint="@null"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="40dp"
-        android:text="Nombre"
-        android:textAlignment="center"
-        android:textColor="#FF803e5b"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.514"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.46"
-        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
-
-    <EditText
-        android:id="@+id/edit_address2"
-        android:layout_width="209dp"
-        android:layout_height="40dp"
-        android:background="#8AF1ECEC"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="40dp"
-        android:text="Direccion"
-        android:textAlignment="center"
-        android:textColor="#FF803e5b"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.514"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.55"
-        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
-
-    <EditText
-        android:id="@+id/edit_phone2"
-        android:layout_width="209dp"
-        android:layout_height="40dp"
-        android:background="#8AF1ECEC"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="40dp"
-        android:text="Telefono"
-        android:textAlignment="center"
-        android:textColor="#FF803e5b"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.73"
-        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
-
-    <EditText
-        android:id="@+id/edit_password2"
-        android:layout_width="209dp"
-        android:layout_height="40dp"
-        android:background="#8AF1ECEC"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="40dp"
-        android:text="Contraseña"
-        android:textAlignment="center"
-        android:textColor="#FF803e5b"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.514"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.822"
-        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
-
-    <EditText
-        android:id="@+id/edit_email2"
-        android:layout_width="209dp"
-        android:layout_height="40dp"
-        android:background="#8AF1ECEC"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="40dp"
-        android:text="Correo"
-        android:textAlignment="center"
-        android:textColor="#FF803e5b"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.514"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.641"
-        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
-
     <ImageView
         android:id="@+id/imgLogo2"
         android:layout_width="202dp"
@@ -127,5 +31,144 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.931" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="156dp"
+        android:textAlignment="center"
+        android:textColorHint="#880E4F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo4">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inpRegistrocontrasena"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:hint="Contraseña"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="404dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="208dp"
+        android:textAlignment="center"
+        android:textColorHint="#880E4F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo4">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inpUsuarioreg"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:hint="Usuario"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="354dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="256dp"
+        android:textAlignment="center"
+        android:textColorHint="#880E4F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo4">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inpTelReg"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:hint="Telefono"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="304dp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="308dp"
+        android:textAlignment="center"
+        android:textColorHint="#880E4F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo4">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inpCorreoReg"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:hint="Correo"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="255dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="356dp"
+        android:textAlignment="center"
+        android:textColorHint="#880E4F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo4">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inpDirReg"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:hint="Direccion"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="204dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="284dp"
+        android:textAlignment="center"
+        android:textColorHint="#880E4F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inpNombreReg"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:hint="Nombre Completo"
+            android:textAlignment="center" />
+    </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
