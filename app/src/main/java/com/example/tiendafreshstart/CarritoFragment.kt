@@ -23,10 +23,10 @@ class CarritoFragment : Fragment() {
     ): View? {
         _binding = FragmentCarritoBinding.inflate(inflater, container, false)
         val view = binding.root
-        binding.btnhomecarrito.setOnClickListener {
+        binding.btncasa.setOnClickListener {
             it.findNavController().navigate(R.id.action_carritoFragment2_to_homeFragment)
         }
-        binding.btnprofilecarrito.setOnClickListener {
+        binding.btnprofile.setOnClickListener {
             it.findNavController().navigate(R.id.action_carritoFragment2_to_editProfileFragment)
         }
         binding.btnsumar2.setOnClickListener{

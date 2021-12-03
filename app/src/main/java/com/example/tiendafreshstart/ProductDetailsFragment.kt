@@ -25,13 +25,13 @@ class product_detailsFragment: Fragment() {
         binding.btnagregar.setOnClickListener{
             it.findNavController().navigate(R.id.action_product_detailsFragment_to_carritoFragment23)
         }
-        binding.btncasadetails.setOnClickListener{
+        binding.btncasa.setOnClickListener{
             it.findNavController().navigate(R.id.action_product_detailsFragment_to_homeFragment)
         }
-        binding.btncarritodetails.setOnClickListener{
+        binding.btncarrito.setOnClickListener{
             it.findNavController().navigate(R.id.action_product_detailsFragment_to_carritoFragment23)
         }
-        binding.btnprofiledetails.setOnClickListener{
+        binding.btnprofile.setOnClickListener{
             it.findNavController().navigate(R.id.action_product_detailsFragment_to_editProfileFragment)
         }
         binding.btnopiniones.setOnClickListener{

@@ -26,22 +26,22 @@ class ProductsFragment : Fragment() {
     ): View? {
         _binding = FragmentProductsBinding.inflate(inflater, container, false)
         val view = binding.root
-        binding.btnDetalle.setOnClickListener{
+        binding.imageDetalle1.setOnClickListener{
             it.findNavController().navigate(R.id.action_productsFragment_to_product_detailsFragment)
         }
-        binding.btnDetalle2.setOnClickListener{
+        binding.imageDetalle2.setOnClickListener{
             it.findNavController().navigate(R.id.action_productsFragment_to_product_detailsFragment)
         }
-        binding.btnDetalle3.setOnClickListener{
+        binding.imageDetalle3.setOnClickListener{
             it.findNavController().navigate(R.id.action_productsFragment_to_product_detailsFragment)
         }
-        binding.btnhomeproduct.setOnClickListener{
+        binding.btncasa.setOnClickListener{
             it.findNavController().navigate(R.id.action_productsFragment_to_homeFragment)
         }
-        binding.btncarritoproduct.setOnClickListener{
+        binding.btncarrito.setOnClickListener{
             it.findNavController().navigate(R.id.action_productsFragment_to_carritoFragment2)
         }
-        binding.btnprofileproduct.setOnClickListener{
+        binding.btnprofile.setOnClickListener{
             it.findNavController().navigate(R.id.action_productsFragment_to_editProfileFragment)
         }
         return view

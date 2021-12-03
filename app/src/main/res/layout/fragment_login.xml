@@ -59,7 +59,9 @@
             android:layout_height="50dp"
             android:gravity="center"
             android:hint="Correo"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textColor="#FF803e5b"
+            android:textColorHint="#FF803e5b" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -79,7 +81,9 @@
             android:layout_height="50dp"
             android:gravity="center"
             android:hint="Contraseña"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:textColor="#FF803e5b"
+            android:textColorHint="#FF803e5b" />
     </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,12 +6,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#D5A6BD"
+    android:padding="3dp"
+    android:paddingRight="8dp"
     tools:context=".product_detailsFragment">
 
     <Button
         android:id="@+id/btnsumar"
         android:layout_width="40dp"
         android:layout_height="36dp"
+        android:layout_marginStart="8dp"
         android:text="+"
         android:textAlignment="center"
         android:textSize="12sp"
@@ -38,9 +41,11 @@
 
     <TextView
         android:id="@+id/txtcantidad"
-        android:layout_width="wrap_content"
+        android:layout_width="20dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="3dp"
+        android:background="#C3F6F3F6"
+        android:fontFamily="cursive"
         android:text="1"
         android:textColor="#FF803e5b"
         android:textSize="16sp"
@@ -63,7 +68,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginTop="32dp"
         android:background="#D500F9"
-        android:fontFamily="casual"
+        android:fontFamily="sans-serif-medium"
         android:text="Agregar al Carrito"
         android:textSize="12sp"
         android:textStyle="bold"
@@ -75,19 +80,19 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="75dp"
-        android:layout_height="21dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="64dp"
         android:background="#D5A6BD"
-        android:fontFamily="casual"
+        android:fontFamily="cursive"
         android:text="Cantidad"
         android:textAlignment="center"
-        android:textColor="#880E4F"
-        android:textSize="16sp"
+        android:textColor="#FF803e5b"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView6"
         app:layout_constraintStart_toEndOf="@+id/textView6"
@@ -104,11 +109,11 @@
         android:layout_alignParentBottom="true"
         android:layout_marginTop="16dp"
         android:background="#D5A6BD"
-        android:fontFamily="casual"
+        android:fontFamily="cursive"
         android:text="Torta Tres Leches"
         android:textAlignment="center"
-        android:textColor="#880E4F"
-        android:textSize="16sp"
+        android:textColor="#FF803e5b"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -135,7 +140,7 @@
         android:layout_width="80dp"
         android:layout_height="89dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="32dp"
         android:src="@drawable/logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.015"
@@ -154,7 +159,7 @@
         android:text="Lorem Ipsum es simplemente texto de relleno de la industria de la impresión y la composición tipográfica. Lorem Ipsum ha sido el texto de relleno estándar de la industria desde el año 1500, cuando un impresor desconocido tomó una galera de tipos y la mezcló para hacer "
         android:textAlignment="viewStart"
         android:textColor="#FF803e5b"
-        android:textSize="14sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -190,7 +195,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginTop="16dp"
         android:background="#C3F6F3F6"
-        android:fontFamily="casual"
+        android:fontFamily="cursive"
         android:text="$ 20"
         android:textColor="#FF803e5b"
         android:textSize="20sp"
@@ -204,7 +209,7 @@
         android:id="@+id/linearLayout"
         android:layout_width="414dp"
         android:layout_height="57dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="32dp"
         android:background="#C3F6F3F6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -213,7 +218,7 @@
         app:layout_constraintVertical_bias="1.0">
 
         <ImageButton
-            android:id="@+id/btncasadetails"
+            android:id="@+id/btncasa"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_marginStart="58dp"
@@ -239,12 +244,12 @@
             android:backgroundTint="#C3F6F3F6"
             android:src="@drawable/instagram__1_"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/btncasadetails"
+            app:layout_constraintStart_toEndOf="@+id/btncasa"
             app:tint="#FF803e5b"
             tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <ImageButton
-            android:id="@+id/btncarritodetails"
+            android:id="@+id/btncarrito"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_marginStart="65dp"
@@ -258,7 +263,7 @@
             tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <ImageButton
-            android:id="@+id/btnprofiledetails"
+            android:id="@+id/btnprofile"
             android:layout_width="25dp"
             android:layout_height="25dp"
             android:layout_marginStart="65dp"
@@ -270,7 +275,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toEndOf="@+id/btncarritodetails"
+            app:layout_constraintStart_toEndOf="@+id/btncarrito"
             app:tint="#FF803e5b"
             tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
     </androidx.constraintlayout.widget.ConstraintLayout>

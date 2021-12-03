@@ -24,10 +24,10 @@ class EditProfileFragment : Fragment() {
         _binding = FragmentEditProfileBinding.inflate(inflater, container, false)
         val view = binding.root
 
-        binding.btnhomeedit.setOnClickListener{
+        binding.btncasa.setOnClickListener{
             it.findNavController().navigate(R.id.action_editProfileFragment_to_homeFragment)
         }
-        binding.btncarritoedit.setOnClickListener{
+        binding.btncarrito.setOnClickListener{
             it.findNavController().navigate(R.id.action_editProfileFragment_to_carritoFragment2)
         }
         binding.btnsaveeditprofile.setOnClickListener{

@@ -11,66 +11,80 @@
     tools:layout_editor_absoluteY="59dp">
 
 
-    <ImageButton
-        android:id="@+id/btnhomeproduct"
-        android:layout_width="76dp"
-        android:layout_height="75dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="25dp"
-        android:layout_marginBottom="40dp"
-        android:background="#D5A6BD"
-        android:src="@drawable/home2"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="414dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="32dp"
+        android:background="#C3F6F3F6"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
 
-    <ImageButton
-        android:id="@+id/imageButton27"
-        android:layout_width="76dp"
-        android:layout_height="75dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
-        android:background="#D5A6BD"
-        android:src="@drawable/instagram"
-        app:layout_constraintStart_toEndOf="@+id/btnhomeproduct"
-        app:layout_constraintTop_toTopOf="@+id/btnhomeproduct"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+        <ImageButton
+            android:id="@+id/btncasa"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="58dp"
+            android:background="#C3F6F3F6"
+            android:backgroundTint="#C3F6F3F6"
+            android:baselineAligned="false"
+            android:foregroundGravity="center"
+            android:src="@drawable/home2"
+            android:textAlignment="viewEnd"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="#FF803e5b"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
-    <ImageButton
-        android:id="@+id/btncarritoproduct"
-        android:layout_width="76dp"
-        android:layout_height="75dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
-        android:background="#D5A6BD"
-        android:src="@drawable/carrito"
-        app:layout_constraintStart_toEndOf="@+id/imageButton27"
-        app:layout_constraintTop_toTopOf="@+id/imageButton27"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+        <ImageButton
+            android:id="@+id/imageButton16"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginBottom="16dp"
+            android:background="#C3F6F3F6"
+            android:backgroundTint="#C3F6F3F6"
+            android:src="@drawable/instagram__1_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btncasa"
+            app:tint="#FF803e5b"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
-    <ImageButton
-        android:id="@+id/btnprofileproduct"
-        android:layout_width="76dp"
-        android:layout_height="75dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="16dp"
-        android:background="#D5A6BD"
-        android:src="@drawable/perfil"
-        app:layout_constraintStart_toEndOf="@+id/btncarritoproduct"
-        app:layout_constraintTop_toTopOf="@+id/btncarritoproduct"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+        <ImageButton
+            android:id="@+id/btncarrito"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginBottom="16dp"
+            android:background="#C3F6F3F6"
+            android:backgroundTint="#C3F6F3F6"
+            android:src="@drawable/shopping_cart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton16"
+            app:tint="#FF803e5b"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/btnprofile"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="16dp"
+            android:background="#C3F6F3F6"
+            android:backgroundTint="#C3F6F3F6"
+            android:src="@drawable/user__1_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btncarrito"
+            app:tint="#FF803e5b"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <RelativeLayout
         android:id="@+id/relativeLayout2"
@@ -100,34 +114,20 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView8"
+            android:id="@+id/imageDetalle2"
             android:layout_width="wrap_content"
             android:layout_height="169dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="50dp"
+            android:layout_marginStart="60dp"
             android:layout_marginTop="278dp"
-            android:layout_marginEnd="234dp"
+            android:layout_marginEnd="224dp"
             android:layout_marginBottom="284dp"
             android:src="@drawable/producto3"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="wrap_content"
-            android:layout_height="98dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="207dp"
-            android:layout_marginEnd="234dp"
-            android:layout_marginBottom="427dp"
-            android:src="@drawable/producto2" />
 
         <TextView
             android:id="@+id/textView18"
@@ -137,120 +137,32 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="197dp"
-            android:layout_marginTop="210dp"
-            android:layout_marginEnd="19dp"
-            android:layout_marginBottom="495dp"
+            android:layout_marginStart="207dp"
+            android:layout_marginTop="233dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="472dp"
+            android:fontFamily="cursive"
             android:text="Nombre del Producto"
-            android:textColor="#FF803e5b" />
-
-        <Button
-            android:id="@+id/btnDetalle"
-            android:layout_width="115dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="197dp"
-            android:layout_marginTop="260dp"
-            android:layout_marginEnd="103dp"
-            android:layout_marginBottom="432dp"
-            android:background="#D500F9"
-            android:text="Detalle"
-            tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+            android:textColor="#FF803e5b"
+            android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/textView15"
-            android:layout_width="202dp"
+            android:id="@+id/textView29"
+            android:layout_width="132dp"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="195dp"
-            android:layout_marginTop="319dp"
-            android:layout_marginEnd="19dp"
-            android:layout_marginBottom="386dp"
-            android:text="Nombre del Producto"
-            android:textColor="#FF803e5b" />
-
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="201dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="195dp"
-            android:layout_marginTop="344dp"
-            android:layout_marginEnd="20dp"
-            android:layout_marginBottom="361dp"
-            android:text="Precio del Producto"
-            android:textColor="#FF803e5b" />
-
-        <Button
-            android:id="@+id/btnDetalle2"
-            android:layout_width="119dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="196dp"
-            android:layout_marginTop="368dp"
-            android:layout_marginEnd="101dp"
-            android:layout_marginBottom="323dp"
-            android:background="#D500F9"
-            android:text="Detalle"
-            tools:ignore="TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
-
-        <TextView
-            android:id="@+id/textView9"
-            android:layout_width="198dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="194dp"
-            android:layout_marginTop="421dp"
-            android:layout_marginEnd="24dp"
-            android:layout_marginBottom="284dp"
-            android:text="Nombre del Producto"
-            android:textColor="#FF803e5b" />
-
-        <TextView
-            android:id="@+id/textView13"
-            android:layout_width="199dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="194dp"
-            android:layout_marginTop="448dp"
-            android:layout_marginEnd="23dp"
-            android:layout_marginBottom="257dp"
-            android:text="Precio del Producto"
-            android:textColor="#FF803e5b" />
-
-        <Button
-            android:id="@+id/btnDetalle3"
-            android:layout_width="119dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="194dp"
-            android:layout_marginTop="474dp"
-            android:layout_marginEnd="103dp"
-            android:layout_marginBottom="217dp"
-            android:background="#D500F9"
-            android:text="Detalle"
-            tools:ignore="TouchTargetSizeCheck,TextContrastCheck,TextContrastCheck" />
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="128dp"
+            android:layout_marginEnd="124dp"
+            android:layout_marginBottom="562dp"
+            android:fontFamily="cursive"
+            android:text="Productos"
+            android:textAlignment="center"
+            android:textColor="#FF803e5b"
+            android:textSize="34sp" />
 
         <TextView
             android:id="@+id/textView19"
@@ -260,24 +172,108 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="197dp"
-            android:layout_marginTop="235dp"
-            android:layout_marginEnd="19dp"
-            android:layout_marginBottom="470dp"
-            android:text="Precio del Producto"
-            android:textColor="#FF803e5b" />
+            android:layout_marginStart="207dp"
+            android:layout_marginTop="258dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="447dp"
+            android:fontFamily="cursive"
+            android:text="$ 205"
+            android:textColor="#FF803e5b"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="205dp"
+            android:layout_marginTop="335dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="370dp"
+            android:fontFamily="cursive"
+            android:text="Nombre del Producto"
+            android:textColor="#FF803e5b"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="201dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="205dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="345dp"
+            android:fontFamily="cursive"
+            android:text="$ 321"
+            android:textColor="#FF803e5b"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="198dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="204dp"
+            android:layout_marginTop="443dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="262dp"
+            android:fontFamily="cursive"
+            android:text="Nombre del Producto"
+            android:textColor="#FF803e5b"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="204dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginEnd="13dp"
+            android:layout_marginBottom="235dp"
+            android:fontFamily="cursive"
+            android:text="$439"
+            android:textColor="#FF803e5b"
+            android:textSize="18sp" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/imageDetalle3"
             android:layout_width="133dp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginTop="397dp"
-            android:layout_marginEnd="235dp"
+            android:layout_marginEnd="225dp"
             android:layout_marginBottom="191dp"
             android:src="@drawable/postre" />
+
+        <ImageView
+            android:id="@+id/imageDetalle1"
+            android:layout_width="wrap_content"
+            android:layout_height="98dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="207dp"
+            android:layout_marginEnd="224dp"
+            android:layout_marginBottom="427dp"
+            android:src="@drawable/producto2" />
 
     </RelativeLayout>
 

@@ -32,6 +32,7 @@
         android:text="Correo"
         android:textAlignment="center"
         android:textColor="#FF803e5b"
+        android:textColorHint="#FF803e5b"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,6 +52,7 @@
         android:text="Nombre"
         android:textAlignment="center"
         android:textColor="#FF803e5b"
+        android:textColorHint="#FF803e5b"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,6 +71,7 @@
         android:text="Direccion"
         android:textAlignment="center"
         android:textColor="#FF803e5b"
+        android:textColorHint="#FF803e5b"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,6 +90,7 @@
         android:text="Contraseña"
         android:textAlignment="center"
         android:textColor="#FF803e5b"
+        android:textColorHint="#FF803e5b"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -105,6 +109,7 @@
         android:text="Telefono"
         android:textAlignment="center"
         android:textColor="#FF803e5b"
+        android:textColorHint="#FF803e5b"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
@@ -125,78 +130,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.751"
         tools:ignore="MissingConstraints" />
-
-    <ImageButton
-        android:id="@+id/btnhomeedit"
-        android:layout_width="86dp"
-        android:layout_height="85dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:background="#D5A6BD"
-        android:src="@drawable/home2"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.043"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.944"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
-
-    <ImageButton
-        android:id="@+id/btncarritoedit"
-        android:layout_width="86dp"
-        android:layout_height="85dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:background="#D5A6BD"
-        android:src="@drawable/carrito"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.618"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.945"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
-
-    <ImageButton
-        android:id="@+id/btnprofileedit"
-        android:layout_width="86dp"
-        android:layout_height="85dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:background="#D5A6BD"
-        android:src="@drawable/perfil"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.904"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.944"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
-
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="86dp"
-        android:layout_height="85dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:background="#D5A6BD"
-        android:src="@drawable/instagram"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btncarritoedit"
-        app:layout_constraintHorizontal_bias="0.533"
-        app:layout_constraintStart_toEndOf="@+id/btnhomeedit"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.944"
-        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -223,5 +156,80 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.226"
         tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="414dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="16dp"
+        android:background="#C3F6F3F6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageButton
+            android:id="@+id/btncasa"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="58dp"
+            android:background="#C3F6F3F6"
+            android:backgroundTint="#C3F6F3F6"
+            android:baselineAligned="false"
+            android:foregroundGravity="center"
+            android:src="@drawable/home2"
+            android:textAlignment="viewEnd"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="#FF803e5b"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton16"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginBottom="16dp"
+            android:background="#C3F6F3F6"
+            android:backgroundTint="#C3F6F3F6"
+            android:src="@drawable/instagram__1_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btncasa"
+            app:tint="#FF803e5b"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/btncarrito"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginBottom="16dp"
+            android:background="#C3F6F3F6"
+            android:backgroundTint="#C3F6F3F6"
+            android:src="@drawable/shopping_cart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton16"
+            app:tint="#FF803e5b"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/btnprofile"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="16dp"
+            android:background="#C3F6F3F6"
+            android:backgroundTint="#C3F6F3F6"
+            android:src="@drawable/user__1_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btncarrito"
+            app:tint="#FF803e5b"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
