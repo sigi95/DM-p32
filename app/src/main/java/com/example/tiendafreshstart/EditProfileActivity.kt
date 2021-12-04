@@ -11,6 +11,13 @@ class EditProfileActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_edit_profile)
 
+        val btnhome=findViewById<ImageView>(R.id.imgLogoEditProfile)
+
+        btnhome.setOnClickListener {
+            val intentHome = Intent(this, MainActivity::class.java)
+            startActivity(intentHome)
+        }
+
         val btncasa=findViewById<ImageView>(R.id.btncasa)
 
         btncasa.setOnClickListener {
