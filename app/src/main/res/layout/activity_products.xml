@@ -100,46 +100,13 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="29dp"
-            android:layout_marginTop="43dp"
-            android:layout_marginEnd="307dp"
-            android:layout_marginBottom="599dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="112dp"
+            android:layout_marginEnd="300dp"
+            android:layout_marginBottom="530dp"
             android:src="@drawable/logo"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:id="@+id/imageDetalle2"
-            android:layout_width="wrap_content"
-            android:layout_height="169dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="60dp"
-            android:layout_marginTop="278dp"
-            android:layout_marginEnd="224dp"
-            android:layout_marginBottom="284dp"
-            android:src="@drawable/producto3"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/textView18"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginStart="207dp"
-            android:layout_marginTop="233dp"
-            android:layout_marginEnd="9dp"
-            android:layout_marginBottom="472dp"
-            android:fontFamily="cursive"
-            android:text="Nombre del Producto"
-            android:textColor="#FF803e5b"
-            android:textSize="18sp" />
 
         <TextView
             android:id="@+id/textView29"
@@ -159,6 +126,35 @@
             android:textColor="#FF803e5b"
             android:textSize="34sp" />
 
+        <ImageView
+            android:id="@+id/imageDetalle3"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="427dp"
+            android:layout_marginEnd="225dp"
+            android:layout_marginBottom="161dp"
+            android:src="@drawable/postre" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="207dp"
+            android:layout_marginTop="263dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginBottom="442dp"
+            android:fontFamily="cursive"
+            android:text="Nombre del Producto"
+            android:textColor="#FF803e5b"
+            android:textSize="18sp" />
+
         <TextView
             android:id="@+id/textView19"
             android:layout_width="200dp"
@@ -168,9 +164,9 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="207dp"
-            android:layout_marginTop="258dp"
+            android:layout_marginTop="288dp"
             android:layout_marginEnd="9dp"
-            android:layout_marginBottom="447dp"
+            android:layout_marginBottom="417dp"
             android:fontFamily="cursive"
             android:text="$ 205"
             android:textColor="#FF803e5b"
@@ -185,13 +181,29 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="205dp"
-            android:layout_marginTop="335dp"
+            android:layout_marginTop="365dp"
             android:layout_marginEnd="9dp"
-            android:layout_marginBottom="370dp"
+            android:layout_marginBottom="340dp"
             android:fontFamily="cursive"
             android:text="Nombre del Producto"
             android:textColor="#FF803e5b"
             android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageDetalle2"
+            android:layout_width="wrap_content"
+            android:layout_height="169dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="308dp"
+            android:layout_marginEnd="224dp"
+            android:layout_marginBottom="254dp"
+            android:src="@drawable/producto3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView16"
@@ -202,9 +214,9 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="205dp"
-            android:layout_marginTop="360dp"
+            android:layout_marginTop="390dp"
             android:layout_marginEnd="10dp"
-            android:layout_marginBottom="345dp"
+            android:layout_marginBottom="315dp"
             android:fontFamily="cursive"
             android:text="$ 321"
             android:textColor="#FF803e5b"
@@ -219,9 +231,9 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="204dp"
-            android:layout_marginTop="443dp"
+            android:layout_marginTop="473dp"
             android:layout_marginEnd="14dp"
-            android:layout_marginBottom="262dp"
+            android:layout_marginBottom="232dp"
             android:fontFamily="cursive"
             android:text="Nombre del Producto"
             android:textColor="#FF803e5b"
@@ -236,25 +248,13 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="204dp"
-            android:layout_marginTop="470dp"
+            android:layout_marginTop="500dp"
             android:layout_marginEnd="13dp"
-            android:layout_marginBottom="235dp"
+            android:layout_marginBottom="205dp"
             android:fontFamily="cursive"
             android:text="$439"
             android:textColor="#FF803e5b"
             android:textSize="18sp" />
-
-        <ImageView
-            android:id="@+id/imageDetalle3"
-            android:layout_width="133dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="397dp"
-            android:layout_marginEnd="225dp"
-            android:layout_marginBottom="191dp"
-            android:src="@drawable/postre" />
 
         <ImageView
             android:id="@+id/imageDetalle1"
@@ -265,9 +265,9 @@
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
             android:layout_marginStart="60dp"
-            android:layout_marginTop="207dp"
+            android:layout_marginTop="237dp"
             android:layout_marginEnd="224dp"
-            android:layout_marginBottom="427dp"
+            android:layout_marginBottom="397dp"
             android:src="@drawable/producto2" />
 
     </RelativeLayout>
