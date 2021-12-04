@@ -154,7 +154,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btnsumar2"
+        android:id="@+id/btnSumarCarrito"
         android:layout_width="40dp"
         android:layout_height="36dp"
         android:layout_marginStart="12dp"
@@ -163,11 +163,11 @@
         android:textAlignment="center"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/txtcantidad2"
+        app:layout_constraintStart_toEndOf="@+id/txtCantidadCarrito"
         tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/btnrestar2"
+        android:id="@+id/btnRestarCarrito"
         android:layout_width="40dp"
         android:layout_height="36dp"
         android:layout_marginStart="8dp"
@@ -179,7 +179,7 @@
         tools:ignore="MissingConstraints,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
     <TextView
-        android:id="@+id/txtcantidad2"
+        android:id="@+id/txtCantidadCarrito"
         android:layout_width="20dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
@@ -193,7 +193,7 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btnrestar2"
+        app:layout_constraintStart_toEndOf="@+id/btnRestarCarrito"
         tools:ignore="MissingConstraints" />
 
     <TextView

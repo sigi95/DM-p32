@@ -8,23 +8,23 @@
     tools:context=".ProductDetailsActivity">
 
     <Button
-        android:id="@+id/btnsumar"
+        android:id="@+id/btnSumarProductDetails"
         android:layout_width="40dp"
         android:layout_height="36dp"
         android:layout_marginStart="8dp"
         android:text="+"
         android:textAlignment="center"
         android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="@+id/btnrestar"
+        app:layout_constraintBottom_toBottomOf="@+id/btnRestarProductDetails"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.246"
-        app:layout_constraintStart_toEndOf="@+id/btnrestar"
-        app:layout_constraintTop_toTopOf="@+id/btnrestar"
+        app:layout_constraintStart_toEndOf="@+id/btnRestarProductDetails"
+        app:layout_constraintTop_toTopOf="@+id/btnRestarProductDetails"
         app:layout_constraintVertical_bias="0.0"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/btnrestar"
+        android:id="@+id/btnRestarProductDetails"
         android:layout_width="40dp"
         android:layout_height="36dp"
         android:layout_marginStart="14dp"
@@ -37,7 +37,7 @@
         tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
     <TextView
-        android:id="@+id/txtcantidad"
+        android:id="@+id/txtCantidadProductDetails"
         android:layout_width="20dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="3dp"
@@ -47,11 +47,11 @@
         android:textColor="#FF803e5b"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/btnrestar"
-        app:layout_constraintEnd_toStartOf="@+id/btnsumar"
+        app:layout_constraintBottom_toBottomOf="@+id/btnRestarProductDetails"
+        app:layout_constraintEnd_toStartOf="@+id/btnSumarProductDetails"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/btnrestar"
-        app:layout_constraintTop_toTopOf="@+id/btnrestar"
+        app:layout_constraintStart_toEndOf="@+id/btnRestarProductDetails"
+        app:layout_constraintTop_toTopOf="@+id/btnRestarProductDetails"
         app:layout_constraintVertical_bias="0.428" />
 
 
