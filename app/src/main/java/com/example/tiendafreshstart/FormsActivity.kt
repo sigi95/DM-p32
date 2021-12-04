@@ -16,6 +16,13 @@ class FormsActivity : AppCompatActivity() {
             val intentRegister = Intent(this, RegisterActivity::class.java)
             startActivity(intentRegister)
         }
+
+        val btnIrLogin=findViewById<Button>(R.id.btnSesionForms)
+
+        btnIrLogin.setOnClickListener {
+            val intentLogin = Intent(this, LoginActivity::class.java)
+            startActivity(intentLogin)
+        }
         
         
     }
