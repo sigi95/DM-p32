@@ -10,6 +10,13 @@ class ProductsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_products)
 
+        val imgIrHome=findViewById<ImageView>(R.id.imgLogoProducts)
+
+        imgIrHome.setOnClickListener {
+                val intentHome = Intent(this, MainActivity::class.java)
+            startActivity(intentHome)
+        }
+
         val imgIrDetalleProducto1=findViewById<ImageView>(R.id.imageDetalle1)
 
         imgIrDetalleProducto1.setOnClickListener {
