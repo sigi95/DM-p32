@@ -15,8 +15,35 @@ class MainActivity : AppCompatActivity() {
         val imgIrForms=findViewById<ImageView>(R.id.imgLogoMain)
 
         imgIrForms.setOnClickListener {
-            val intentForms = Intent(this, FormsActivity::class.java)
+            val intentLogin = Intent(this, FormsActivity::class.java)
+            startActivity(intentLogin)
+        }
+
+        val imgmapa=findViewById<ImageView>(R.id.btnmap)
+
+        imgmapa.setOnClickListener {
+            val intentForms = Intent(this, MapsActivity::class.java)
             startActivity(intentForms)
         }
+        val btncasa=findViewById<ImageView>(R.id.btncasa)
+
+        btncasa.setOnClickListener {
+            val intentCasa = Intent(this, MainActivity::class.java)
+            startActivity(intentCasa)
+        }
+        val btncarrito=findViewById<ImageView>(R.id.btncarrito)
+
+        btncarrito.setOnClickListener {
+            val intentCarrito = Intent(this, CarritoActivity::class.java)
+            startActivity(intentCarrito)
+        }
+
+        val btnprofile=findViewById<ImageView>(R.id.btnprofile)
+
+        btnprofile.setOnClickListener {
+            val intentPerfil = Intent(this, EditProfileActivity::class.java)
+            startActivity(intentPerfil)
+        }
+
    }
 }

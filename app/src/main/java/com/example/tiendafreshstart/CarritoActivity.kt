@@ -24,6 +24,19 @@ class CarritoActivity : AppCompatActivity() {
             val intentHome = Intent(this, MainActivity::class.java)
             startActivity(intentHome)
         }
+        val btncasa=findViewById<ImageView>(R.id.btncasa)
+
+        btncasa.setOnClickListener {
+            val intentCasa = Intent(this, MainActivity::class.java)
+            startActivity(intentCasa)
+        }
+
+        val btnprofile=findViewById<ImageView>(R.id.btnprofile)
+
+        btnprofile.setOnClickListener {
+            val intentPerfil = Intent(this, EditProfileActivity::class.java)
+            startActivity(intentPerfil)
+        }
 
         btnsumar.setOnClickListener {
             numero = numero + 1
