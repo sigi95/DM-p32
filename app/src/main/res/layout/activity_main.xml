@@ -114,7 +114,6 @@
         android:id="@+id/linearLayout"
         android:layout_width="414dp"
         android:layout_height="57dp"
-        android:layout_marginBottom="32dp"
         android:background="#C3F6F3F6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

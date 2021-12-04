@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#D5A6BD"
     tools:context=".ProductDetailsActivity">
 
     <Button
@@ -205,7 +206,6 @@
         android:id="@+id/linearLayout"
         android:layout_width="414dp"
         android:layout_height="57dp"
-        android:layout_marginBottom="32dp"
         android:background="#C3F6F3F6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -275,5 +275,6 @@
             app:tint="#FF803e5b"
             tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
