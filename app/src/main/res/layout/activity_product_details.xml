@@ -17,7 +17,7 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/btnRestarProductDetails"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.246"
+        app:layout_constraintHorizontal_bias="0.427"
         app:layout_constraintStart_toEndOf="@+id/btnRestarProductDetails"
         app:layout_constraintTop_toTopOf="@+id/btnRestarProductDetails"
         app:layout_constraintVertical_bias="0.0"
@@ -36,10 +36,11 @@
         app:layout_constraintVertical_bias="0.466"
         tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
+
     <TextView
         android:id="@+id/txtCantidadProductDetails"
-        android:layout_width="20dp"
-        android:layout_height="wrap_content"
+        android:layout_width="31dp"
+        android:layout_height="21dp"
         android:layout_marginStart="3dp"
         android:background="#C3F6F3F6"
         android:fontFamily="cursive"
@@ -49,11 +50,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/btnRestarProductDetails"
         app:layout_constraintEnd_toStartOf="@+id/btnSumarProductDetails"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.636"
         app:layout_constraintStart_toEndOf="@+id/btnRestarProductDetails"
         app:layout_constraintTop_toTopOf="@+id/btnRestarProductDetails"
-        app:layout_constraintVertical_bias="0.428" />
-
+        app:layout_constraintVertical_bias="0.6" />
 
     <Button
         android:id="@+id/btnCarritoDetalleProducto"
@@ -83,7 +83,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="64dp"
+        android:layout_marginStart="36dp"
         android:background="#D5A6BD"
         android:fontFamily="cursive"
         android:text="Cantidad"
@@ -94,7 +94,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/textView6"
         app:layout_constraintStart_toEndOf="@+id/textView6"
         app:layout_constraintTop_toTopOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.25" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView17"
