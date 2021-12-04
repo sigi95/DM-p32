@@ -1,8 +1,10 @@
 package com.example.tiendafreshstart
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageView
 import android.widget.TextView
 
 class CarritoActivity : AppCompatActivity() {
@@ -16,6 +18,12 @@ class CarritoActivity : AppCompatActivity() {
         val btnsumar=findViewById<Button>(R.id.btnSumarCarrito)
         val btnrestar=findViewById<Button>(R.id.btnRestarCarrito)
         val resultado=findViewById<TextView>(R.id.txtCantidadCarrito)
+        val imgIrHome=findViewById<ImageView>(R.id.imgLogoCarrito)
+
+        imgIrHome.setOnClickListener {
+            val intentHome = Intent(this, MainActivity::class.java)
+            startActivity(intentHome)
+        }
 
         btnsumar.setOnClickListener {
             numero = numero + 1

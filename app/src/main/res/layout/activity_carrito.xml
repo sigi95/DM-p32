@@ -97,7 +97,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/imgLogoCarrito"
         android:layout_width="104dp"
         android:layout_height="84dp"
         android:layout_marginTop="48dp"
