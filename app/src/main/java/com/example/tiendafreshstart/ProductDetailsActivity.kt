@@ -9,29 +9,27 @@ import android.widget.TextView
 
 class ProductDetailsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        var numero:Int=1
 
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_product_details)
+
+        var numero1:Int=1
+        val imgIrMain=findViewById<ImageView>(R.id.imaLogoDetalleProducto)
         val btnsumar2=findViewById<Button>(R.id.btnSumarProductDetails)
         val btnrestar2=findViewById<Button>(R.id.btnRestarProductDetails)
         val resultado2=findViewById<TextView>(R.id.txtCantidadProductDetails)
 
         btnsumar2.setOnClickListener {
-            numero = numero + 1
-            resultado2.setText(String.format("%d",numero))
+            numero1 = numero1 + 1
+            resultado2.setText(String.format("%d",numero1))
         }
 
         btnrestar2.setOnClickListener {
-            if (numero >= 1) {
-                numero = numero - 1
-                resultado2.setText(String.format("%d",numero))
+            if (numero1 >= 1) {
+                numero1 = numero1 - 1
+                resultado2.setText(String.format("%d",numero1))
             }
         }
-
-
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_product_details)
-
-        val imgIrMain=findViewById<ImageView>(R.id.imaLogoDetalleProducto)
 
         imgIrMain.setOnClickListener {
             val intentHome = Intent(this, MainActivity::class.java)
