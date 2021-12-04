@@ -5,20 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegisterActivity">
+
     <ImageView
-        android:id="@+id/imgLogo2"
+        android:id="@+id/imgLogoRegister"
         android:layout_width="202dp"
         android:layout_height="193dp"
         android:src="@drawable/logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.102" />
+        app:layout_constraintVertical_bias="0.039" />
 
     <Button
-        android:id="@+id/btnRegistro"
+        android:id="@+id/btnRegistroRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="60dp"
@@ -28,37 +29,55 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.931" />
+        app:layout_constraintVertical_bias="0.8" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="200dp"
         android:layout_height="40dp"
-        android:layout_marginBottom="204dp"
+        android:layout_marginTop="230dp"
+        android:textAlignment="center"
+        android:textColorHint="#880E4F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inpNombreReg"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:hint="Nombre Completo"
+            android:textAlignment="center" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="350dp"
         android:textAlignment="center"
         android:textColorHint="#880E4F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgLogo4">
+        app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/inpRegistrocontrasena"
+            android:id="@+id/inpDirReg"
             android:layout_width="200dp"
             android:layout_height="50dp"
             android:gravity="center"
-            android:hint="Contraseña"
+            android:hint="Direccion"
             android:textAlignment="center"
+            tools:ignore="DuplicateClickableBoundsCheck"
             tools:layout_editor_absoluteX="106dp"
-            tools:layout_editor_absoluteY="404dp" />
-
+            tools:layout_editor_absoluteY="204dp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="200dp"
         android:layout_height="40dp"
-        android:layout_marginTop="6dp"
-        android:layout_marginBottom="254dp"
+        android:layout_marginBottom="308dp"
         android:textAlignment="center"
         android:textColorHint="#880E4F"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -82,7 +101,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="200dp"
         android:layout_height="40dp"
-        android:layout_marginBottom="304dp"
+        android:layout_marginBottom="265dp"
         android:textAlignment="center"
         android:textColorHint="#880E4F"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -102,46 +121,27 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayout"
         android:layout_width="200dp"
         android:layout_height="40dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="354dp"
+        android:layout_marginBottom="222dp"
         android:textAlignment="center"
         android:textColorHint="#880E4F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo4">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/inpDirReg"
+            android:id="@+id/inpRegistrocontrasena"
             android:layout_width="200dp"
             android:layout_height="50dp"
             android:gravity="center"
-            android:hint="Direccion"
+            android:hint="Contraseña"
             android:textAlignment="center"
             tools:layout_editor_absoluteX="106dp"
-            tools:layout_editor_absoluteY="204dp" />
-    </com.google.android.material.textfield.TextInputLayout>
+            tools:layout_editor_absoluteY="404dp" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="284dp"
-        android:textAlignment="center"
-        android:textColorHint="#880E4F"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/inpNombreReg"
-            android:layout_width="200dp"
-            android:layout_height="50dp"
-            android:gravity="center"
-            android:hint="Nombre Completo"
-            android:textAlignment="center" />
     </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
