@@ -7,7 +7,7 @@
     tools:context=".LoginActivity">
 
     <ImageView
-        android:id="@+id/imgLogo4"
+        android:id="@+id/imgLogoLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/logo"
@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.247" />
 
     <Button
-        android:id="@+id/btniniciarsesion2"
+        android:id="@+id/btnSesionLogin"
         android:layout_width="150dp"
         android:layout_height="40dp"
         android:layout_marginBottom="68dp"
@@ -31,13 +31,13 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/btnregistro2"
+        android:id="@+id/btnRegistroLogin"
         android:layout_width="150dp"
         android:layout_height="40dp"
         android:layout_marginEnd="28dp"
         android:text="Registrese"
-        app:layout_constraintEnd_toStartOf="@+id/btniniciarsesion2"
-        app:layout_constraintTop_toTopOf="@+id/btniniciarsesion2"
+        app:layout_constraintEnd_toStartOf="@+id/btnSesionLogin"
+        app:layout_constraintTop_toTopOf="@+id/btnSesionLogin"
         tools:ignore="TouchTargetSizeCheck" />
 
     <com.google.android.material.textfield.TextInputLayout
@@ -49,7 +49,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgLogo4">
+        app:layout_constraintTop_toBottomOf="@+id/imgLogoLogin">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/inpUsuarioLogin"
@@ -71,7 +71,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgLogo4">
+        app:layout_constraintTop_toBottomOf="@+id/imgLogoLogin">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/inpContrasenaLogin"

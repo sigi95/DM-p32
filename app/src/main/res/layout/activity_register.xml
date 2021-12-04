@@ -84,7 +84,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgLogo4">
+        app:layout_constraintTop_toBottomOf="@+id/imgLogoLogin">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/inpTelReg"
@@ -130,7 +130,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgLogo4">
+        app:layout_constraintTop_toBottomOf="@+id/imgLogoLogin">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/inpRegistrocontrasena"
