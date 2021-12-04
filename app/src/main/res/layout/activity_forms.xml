@@ -7,7 +7,7 @@
     tools:context=".FormsActivity">
 
     <ImageView
-        android:id="@+id/imgLogo3"
+        android:id="@+id/imgLogoForms"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="156dp"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnsesion"
+        android:id="@+id/btnSesionForms"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -25,10 +25,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnregistrar" />
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistrarForms" />
 
     <Button
-        android:id="@+id/btnregistrar"
+        android:id="@+id/btnRegistrarForms"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -36,7 +36,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgLogo3" />
+        app:layout_constraintTop_toBottomOf="@+id/imgLogoForms" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
