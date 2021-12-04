@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="#D5A6BD"
     android:foregroundTintMode="add"
-    tools:context=".ComentariosFragment">
+    tools:context=".ComentariosActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout"

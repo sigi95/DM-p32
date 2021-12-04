@@ -2,13 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frameLayout4"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D5A6BD"
-    android:padding="3dp"
-    android:paddingRight="8dp"
-    tools:context=".product_detailsFragment">
+    tools:context=".ProductDetailsActivity">
 
     <Button
         android:id="@+id/btnsumar"
@@ -279,6 +275,5 @@
             app:tint="#FF803e5b"
             tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

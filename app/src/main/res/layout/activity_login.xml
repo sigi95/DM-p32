@@ -2,11 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frameLayout3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D5A6BD"
-    tools:context=".LoginFragment">
+    tools:context=".LoginActivity">
 
     <ImageView
         android:id="@+id/imgLogo4"
@@ -85,5 +83,4 @@
             android:textColor="#FF803e5b"
             android:textColorHint="#FF803e5b" />
     </com.google.android.material.textfield.TextInputLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

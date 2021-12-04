@@ -2,11 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D5A6BD"
-    tools:context=".FormsFragment">
+    tools:context=".FormsActivity">
 
     <ImageView
         android:id="@+id/imgLogo3"
@@ -39,5 +37,6 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgLogo3" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,11 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frameLayout6"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D5A6BD"
-    tools:context=".CarritoFragment">
+    tools:context=".CarritoActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout"
@@ -229,10 +227,8 @@
         android:layout_alignParentBottom="true"
         android:layout_marginTop="40dp"
         android:fontFamily="cursive"
-        android:gravity="center"
         android:padding="8dp"
         android:text="Carrito de Compras"
-        android:textAlignment="viewStart"
         android:textColor="#FF803e5b"
         android:textSize="28sp"
         android:textStyle="bold"

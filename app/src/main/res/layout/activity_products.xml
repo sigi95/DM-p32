@@ -2,14 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D5A6BD"
-    tools:context=".ProductsFragment"
-    tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="59dp">
-
+    tools:context=".ProductsActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout"
@@ -276,6 +271,5 @@
             android:src="@drawable/producto2" />
 
     </RelativeLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

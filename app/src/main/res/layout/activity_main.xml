@@ -7,16 +7,183 @@
     android:background="#D5A6BD"
     tools:context=".MainActivity">
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="409dp"
-        android:layout_height="729dp"
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="cursive"
+        android:text="Telefono: 32000976554"
+        android:textAlignment="center"
+        android:textColor="#FF803e5b"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnmap" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="cursive"
+        android:text="www.afreshtart.co"
+        android:textAlignment="center"
+        android:textColor="#FF803e5b"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/btnmap"
+        android:layout_width="310dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="16dp"
         android:background="#D5A6BD"
-        app:defaultNavHost="true"
+        android:foreground="@drawable/maps9"
+        android:src="@drawable/maps3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="cursive"
+        android:text="Bogota, Colombia"
+        android:textAlignment="center"
+        android:textColor="#FF803e5b"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="126dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="310dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="12dp"
+        android:background="#C3F6F3F6"
+        android:fontFamily="cursive"
+        android:justificationMode="inter_word"
+        android:padding="12sp"
+        android:text="Lorem Ipsum es simplemente texto de relleno de la industria de la impresión y la composición tipográfica. Lorem Ipsum ha sido el texto de relleno estándar de la industria desde el año 1500, cuando un impresor desconocido tomó una galera de tipos y la mezcló para hacer un libro de muestras tipográficas. "
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FF803e5b"
+        android:textSize="18sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="cursive"
+        android:text="Quienes Somos"
+        android:textAlignment="center"
+        android:textColor="#FF803e5b"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogo" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="414dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="32dp"
+        android:background="#C3F6F3F6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:navGraph="@navigation/nav_graph" />
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageButton
+            android:id="@+id/btncasa"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="58dp"
+            android:background="#C3F6F3F6"
+            android:backgroundTint="#C3F6F3F6"
+            android:baselineAligned="false"
+            android:foregroundGravity="center"
+            android:src="@drawable/home2"
+            android:textAlignment="viewEnd"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="#FF803e5b"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/imageButton16"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginBottom="16dp"
+            android:background="#C3F6F3F6"
+            android:backgroundTint="#C3F6F3F6"
+            android:src="@drawable/instagram__1_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btncasa"
+            app:tint="#FF803e5b"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/btncarrito"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginBottom="16dp"
+            android:background="#C3F6F3F6"
+            android:backgroundTint="#C3F6F3F6"
+            android:src="@drawable/shopping_cart"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton16"
+            app:tint="#FF803e5b"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/btnprofile"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginEnd="70dp"
+            android:layout_marginBottom="16dp"
+            android:background="#C3F6F3F6"
+            android:backgroundTint="#C3F6F3F6"
+            android:src="@drawable/user__1_"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/btncarrito"
+            app:tint="#FF803e5b"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
