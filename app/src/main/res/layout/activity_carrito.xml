@@ -100,10 +100,10 @@
         android:id="@+id/imgLogoCarrito"
         android:layout_width="104dp"
         android:layout_height="84dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="16dp"
         android:src="@drawable/logo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.006"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
@@ -123,10 +123,28 @@
         android:id="@+id/textView5"
         android:layout_width="157dp"
         android:layout_height="27dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginBottom="412dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="428dp"
         android:fontFamily="cursive"
         android:text="Nombre del Producto"
+        android:textColor="#FF803e5b"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="155dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="396dp"
+        android:fontFamily="cursive"
+        android:text="$ 20"
         android:textColor="#FF803e5b"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -141,8 +159,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="352dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="328dp"
         android:background="#D5A6BD"
         android:fontFamily="cursive"
         android:text="Cantidad"
@@ -150,40 +168,15 @@
         android:textColor="#FF803e5b"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
+        app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/btnSumarCarrito"
-        android:layout_width="40dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginBottom="345dp"
-        android:text="+"
-        android:textAlignment="center"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/txtCantidadCarrito"
-        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
-
-    <Button
-        android:id="@+id/btnRestarCarrito"
-        android:layout_width="40dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginBottom="344dp"
-        android:text="-"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView10"
-        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/txtCantidadCarrito"
         android:layout_width="35dp"
         android:layout_height="28dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="344dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="324dp"
         android:background="#C3F6F3F6"
         android:fontFamily="cursive"
         android:padding="3dp"
@@ -196,11 +189,35 @@
         app:layout_constraintStart_toEndOf="@+id/btnRestarCarrito"
         tools:ignore="MissingConstraints" />
 
+    <Button
+        android:id="@+id/btnSumarCarrito"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="320dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txtCantidadCarrito"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/btnRestarCarrito"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="320dp"
+        android:text="-"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:layout_marginBottom="288dp"
+        android:layout_marginBottom="224dp"
         android:fontFamily="cursive"
         android:padding="8dp"
         android:text="Envio                                $########"
@@ -210,15 +227,15 @@
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.705"
+        app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView14"
-        android:layout_width="343dp"
+        android:layout_width="wrap_content"
         android:layout_height="41dp"
-        android:layout_marginBottom="248dp"
+        android:layout_marginBottom="184dp"
         android:fontFamily="cursive"
         android:padding="8dp"
         android:text="Total con envio                 $########"
@@ -228,26 +245,8 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.735"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="155dp"
-        android:layout_height="30dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="28dp"
-        android:layout_marginBottom="380dp"
-        android:fontFamily="cursive"
-        android:text="$ 20"
-        android:textColor="#FF803e5b"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView9"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -270,7 +269,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.162"
+        app:layout_constraintVertical_bias="0.091"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
